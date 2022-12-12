@@ -9,12 +9,17 @@ body {
   line-height: 1.5;
 }
 
+a[href="#top"]{
+  text-decoration: none;
+  color: #fff;
+}
+
 span {
   display: none;
-  position: sticky; 
-  left: 100%;
-  bottom: 20px;  
   z-index: 99;
+  position: sticky;
+  bottom: 10px;
+  margin-left: 99.5%;
   border: none; 
   outline: none; 
   background-color: black;
@@ -22,8 +27,12 @@ span {
   cursor: pointer; 
   padding: 15px; 
   border-radius: 10px; 
-  font-size: 10px; 
+  font-size: 5px; 
   margin-top: 100vh;
+}
+
+section:last-of-type{
+  margin-bottom: -48vw;
 }
 
 #main-doc header {
@@ -69,7 +78,7 @@ span {
   position: absolute;
   top: 0;
   left: 320px;
-  padding: 20px 30px;
+  padding: 20px 60px 20px 40px;
   text-align: justify;
 }
 

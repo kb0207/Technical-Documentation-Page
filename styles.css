@@ -28,8 +28,12 @@ span {
   padding: 15px; 
   border-radius: 10px; 
   font-size: 5px; 
+  margin-top: 100vh;
 }
 
+section:last-of-type{
+  margin-bottom: -48vw;
+}
 
 #main-doc header {
   text-align: left;
